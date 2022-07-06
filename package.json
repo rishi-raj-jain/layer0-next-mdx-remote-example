@@ -1,0 +1,28 @@
+{
+  "name": "layer0-next-mdx-remote-example",
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write '**/*' --ignore-unknown"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "12.2.0",
+    "next-mdx-remote": "4.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.15.6",
+    "@layer0/core": "^4.15.6",
+    "@layer0/devtools": "^4.15.6",
+    "@layer0/next": "^4.15.6",
+    "@layer0/prefetch": "^4.15.6",
+    "@layer0/react": "^4.15.6",
+    "prettier": "^2.7.1"
+  }
+}
